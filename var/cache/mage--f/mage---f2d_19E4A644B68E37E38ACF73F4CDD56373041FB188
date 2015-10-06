@@ -1,0 +1,47 @@
+
+    <div class="widget widget-static-block ">
+    	    	<div><span class="h5">LOREM IPSUM DOLOR</span>
+<div class="grid_8 alpha hide-lte0"><a href="#"><img class="fluid" src="http://localhost/galayomarket/media/wysiwyg/home_banner_11.jpg" alt="" /></a></div>
+<div class="grid_8 hide-lte0"><a href="#"><img class="fluid" src="http://localhost/galayomarket/media/wysiwyg/home_banner_12.jpg" alt="" /></a></div>
+<div class="grid_8 omega hide-lte0"><a href="#"><img class="fluid" src="http://localhost/galayomarket/media/wysiwyg/home_banner_13.jpg" alt="" /></a></div>
+<div class="clear">&nbsp;</div>
+<div class="grid_16 alpha hide-lte0"><a href="#"><img class="fluid" src="http://localhost/galayomarket/media/wysiwyg/home_banner_14.jpg" alt="" /></a></div>
+<div class="grid_8 omega"><div class="block block-subscribe">
+    <form action="http://localhost/galayomarket/index.php/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <div class="form-subscribe-header">
+                <label for="newsletter">Sign Up for Our Newsletter:</label>
+            </div>
+            <div class="input-act">
+			<div class="input-box">
+                <script type="text/javascript">
+    					function clearText(theField)
+    					{
+    					if (theField.defaultValue == theField.value)
+    					theField.value = '';
+    					}
+    					
+    					function addText(theField)
+    					{
+    					if (theField.value == '')
+    					theField.value = theField .defaultValue;
+    					}
+    			</script>
+                <input type="text" name="email" id="newsletter" onblur="addText(this);" onfocus="clearText(this)" value="enter your email" title="Sign up for our newsletter" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+            </div>
+			</div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>    </div>
+

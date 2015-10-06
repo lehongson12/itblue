@@ -1,0 +1,18 @@
+<div class="footer-container">
+    <div class="footer">
+        <ul>
+<li><a href="http://localhost/itblue/index.php/about-magento-demo-store">About Us</a></li>
+<li><a href="http://localhost/itblue/index.php/customer-service">Customer Service</a></li>
+<li class="last privacy"><a href="http://localhost/itblue/index.php/privacy-policy-cookie-restriction-mode">Privacy Policy</a></li>
+</ul><ul class="links">
+                        <li class="first" ><a href="http://localhost/itblue/index.php/catalog/seo_sitemap/category/?___SID=U" title="Site Map" >Site Map</a></li>
+                                <li ><a href="http://localhost/itblue/index.php/catalogsearch/term/popular/?___SID=U" title="Search Terms" >Search Terms</a></li>
+                                <li ><a href="http://localhost/itblue/index.php/catalogsearch/advanced/?___SID=U" title="Advanced Search" >Advanced Search</a></li>
+                                <li ><a href="http://localhost/itblue/index.php/sales/guest/form/?___SID=U" title="Orders and Returns" >Orders and Returns</a></li>
+                                <li class=" last" ><a href="http://localhost/itblue/index.php/contacts/?___SID=U" title="Contact Us" >Contact Us</a></li>
+            </ul>
+        
+        <div><address>&copy; 2013 GalaYoMarket Demo Store. All Rights Reserved.</address><a class="text-copyright" href="http://galathemes.com/" title="Magento Themes &amp; Magento Templates">Magento Themes</a> by <a href="http://galathemes.com/magento-themes.html" title="Premium Magento Themes &amp; Premium Magento Templates" >galathemes.com</a></div>
+    </div>
+</div>
+<p id="back-top"><a href="#top">Back to Top</a></p>

@@ -1,0 +1,171 @@
+    <script type="text/javascript">
+		var load_96  = false;
+		var check = false;
+        function toogleMenu(){
+            var $=jQuery;
+            var container = $("#menuleft");
+			if(!check){
+				if(checkMobile == false){
+					if($("body").hasClass("adapt-0")==false){
+						$("#menuleftText").unbind("click");
+						if (!($("body").hasClass("cms-index-index"))){
+							container.hide();
+							$("#menuleft").parent().hover(
+								function( event ){
+									event.preventDefault();
+									container.fadeToggle('fast');
+								}
+							);
+						}
+					}else{
+						$("#menuleft").parent().unbind("mouseenter mouseleave");
+						container.hide();
+						$("#menuleftText").click(
+							function( event ){
+								event.preventDefault();
+								container.fadeToggle('fast');
+							}
+						);
+					}    			
+				}else{
+					container.hide();
+					$("#menuleftText").unbind('click');
+					$("#menuleftText").click(
+						function( event ){
+							event.preventDefault();
+							container.slideToggle(200);
+						}
+					);
+				}
+			}			
+        };
+		jQuery(document).ready(function(){
+			toogleMenu();
+			check=true;
+		});
+        jQuery(window).bind('emadaptchange orientationchange', function() {
+			toogleMenu();
+			check=false;
+        });         
+    </script>
+    <div class="em_nav">
+        <div>
+            <div class="shopby-title" id="menuleftText"><a href="#">SHOP BY DEPARTMENT</a><span class="option">nav</span></div>
+            <ul class="vnav" id="menuleft" style="display: none;">
+                <li class="menu-item-depth-0">
+                    <ul class="em-catalog-navigation">
+                        <li class="level0 nav-1 menu-item-link menu-item-depth-0 first parent">
+<a href="http://localhost/galayomarket/index.php/furniture.html" class="menu-item-link menu-item-depth-0">
+<span>Furniture</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-1-1 first">
+<a href="http://localhost/galayomarket/index.php/furniture/living-room.html">
+<span>Living Room</span>
+</a>
+</li><li class="level1 nav-1-2 last">
+<a href="http://localhost/galayomarket/index.php/furniture/bedroom.html">
+<span>Bedroom</span>
+</a>
+</li>
+</ul>
+</li><li class="level0 nav-2 menu-item-link menu-item-depth-0 parent">
+<a href="http://localhost/galayomarket/index.php/electronics.html" class="menu-item-link menu-item-depth-0">
+<span>Electronics</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-2-1 first">
+<a href="http://localhost/galayomarket/index.php/electronics/cell-phones.html">
+<span>Cell Phones</span>
+</a>
+</li><li class="level1 nav-2-2 parent">
+<a href="http://localhost/galayomarket/index.php/electronics/cameras.html">
+<span>Cameras</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-2-1 first">
+<a href="http://localhost/galayomarket/index.php/electronics/cameras/accessories.html">
+<span>Accessories</span>
+</a>
+</li><li class="level2 nav-2-2-2 last">
+<a href="http://localhost/galayomarket/index.php/electronics/cameras/digital-cameras.html">
+<span>Digital Cameras</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-2-3 last parent">
+<a href="http://localhost/galayomarket/index.php/electronics/computers.html">
+<span>Computers</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-3-3 first">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/build-your-own.html">
+<span>Build Your Own</span>
+</a>
+</li><li class="level2 nav-2-3-4">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/laptops.html">
+<span>Laptops</span>
+</a>
+</li><li class="level2 nav-2-3-5">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/hard-drives.html">
+<span>Hard Drives</span>
+</a>
+</li><li class="level2 nav-2-3-6">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/monitors.html">
+<span>Monitors</span>
+</a>
+</li><li class="level2 nav-2-3-7">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/ram-memory.html">
+<span>RAM / Memory</span>
+</a>
+</li><li class="level2 nav-2-3-8">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/cases.html">
+<span>Cases</span>
+</a>
+</li><li class="level2 nav-2-3-9">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/processors.html">
+<span>Processors</span>
+</a>
+</li><li class="level2 nav-2-3-10 last">
+<a href="http://localhost/galayomarket/index.php/electronics/computers/peripherals.html">
+<span>Peripherals</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level0 nav-3 menu-item-link menu-item-depth-0 last parent">
+<a href="http://localhost/galayomarket/index.php/apparel.html" class="menu-item-link menu-item-depth-0">
+<span>Apparel</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-3-1 first">
+<a href="http://localhost/galayomarket/index.php/apparel/shirts.html">
+<span>Shirts</span>
+</a>
+</li><li class="level1 nav-3-2 parent">
+<a href="http://localhost/galayomarket/index.php/apparel/shoes.html">
+<span>Shoes</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-3-2-1 first">
+<a href="http://localhost/galayomarket/index.php/apparel/shoes/mens.html">
+<span>Mens</span>
+</a>
+</li><li class="level2 nav-3-2-2 last">
+<a href="http://localhost/galayomarket/index.php/apparel/shoes/womens.html">
+<span>Womens</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-3-3 last">
+<a href="http://localhost/galayomarket/index.php/apparel/hoodies.html">
+<span>Hoodies</span>
+</a>
+</li>
+</ul>
+</li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>

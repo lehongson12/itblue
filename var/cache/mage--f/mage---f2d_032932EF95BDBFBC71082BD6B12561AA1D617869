@@ -1,0 +1,44 @@
+
+    <div class="widget widget-static-block ">
+    	    	<div class="grid_6 alpha small hide-lte0">
+<p class="h5">LATEST NEW</p>
+<ul class="none">
+<li><a href="#">Consectetur adipiscing</a></li>
+<li><a href="#">Mauris tincidunt </a></li>
+<li><a href="#">Suspendisse lorem</a></li>
+<li><a href="#">Vivamus quam</a></li>
+<li><a href="#">Nam fermentum eros</a></li>
+<li><a href="#">Elementum vel </a></li>
+</ul>
+</div>
+<div class="grid_6 small">
+<p class="h5">INFORMATION</p>
+<ul class="none">
+<li><a href="http://localhost/galayomarket/index.php/about-magento-demo-store">About Us</a></li>
+<li><a href="http://localhost/galayomarket/index.php/contacts">Contact Us</a></li>
+<li><a href="http://localhost/galayomarket/index.php/customer-service">Customer Service</a></li>
+<li><a href="http://localhost/galayomarket/index.php/catalog/seo_sitemap/category/">Site Map</a></li>
+<li><a href="http://localhost/galayomarket/index.php/catalogsearch/term/popular/">Search Term</a></li>
+<li><a href="http://localhost/galayomarket/index.php/catalogsearch/advanced/">Advanced Search</a></li>
+</ul>
+</div>
+<div class="grid_6 small">
+<p class="h5">SERVICE &amp; SUPPORT</p>
+<ul class="none">
+<li><a href="#">Help &amp; FAQs</a></li>
+<li><a href="#">Call Center</a></li>
+<li><a href="#">Gift Cards</a></li>
+<li><a href="#">California Sales Information</a></li>
+<li><a href="#">Shop by Brand</a></li>
+<li><a href="#">Hard to Find Parts</a></li>
+<li><a href="#">Report a Bug on This Page</a></li>
+</ul>
+</div>
+<div class="grid_6 omega small">
+<p class="h5">ABOUT STORE</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+<p>123 Street, XQ Ward, Green City</p>
+<p>Tel: 12345xxxxx</p>
+<p>Email: owner@example.com</p>
+</div>    </div>
+
