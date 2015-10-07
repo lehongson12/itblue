@@ -1,0 +1,129 @@
+<?php
+	global $var_yttheme;
+    $_productCollection = $this->getLoadedProductCollection();
+    $_helper = $this->helper('catalog/output');
+    $imgWidth = $this->product_image_width;
+    $imgHeight = $this->product_image_height;
+    if ($imgWidth <= 0 || $imgHeight <= 0){
+    	$this->product_image_disp = false;
+    }
+?>
+
+<div class="block-feature-products">
+	<!--<div class="block-title"><h3 style=""><?php //echo $this->block_title; ?></h3></div>
+	<div class="des-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit ac lobortis lacus</div>-->
+    <div class="block-content">
+    	<?php if(!$_productCollection->count()): ?>
+        	<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+        <?php else: 
+		$row = 0;
+        $col= 0;
+        $count = 1;
+		$i=0;
+		$j=0;
+		$_collectionSize = $_productCollection->count();
+		foreach($_productCollection as $_product): $j++;
+			$now = date("Y-m-d");
+			$newsFrom= substr($_product->getData('news_from_date'),0,10);
+			$newsTo=  substr($_product->getData('news_to_date'),0,10);
+			$specialprice = Mage::getModel('catalog/product')->load($_product->getId())->getSpecialPrice();
+			$isBestProduct =($_product->getResource()->getAttribute('best') AND $_product->getResource()->getAttribute('best')->getFrontend()->getValue($_product)=="Yes")?$_product->getResource()->getAttribute('best')->getFrontend()->getValue($_product):'';			
+			$this->_reviewsHelperBlock = $this->getLayout()->createBlock('review/helper'); 
+		?>
+			<?php if ($i++==0): ?>
+			<div class="products-grid category-products">
+				<div class="row-fluid">
+			<?php endif ?>
+					    <div class="span4<?php echo (($i-1)%3==0 || $i==1)?' first-normal':''; ?>" data-stablet="span6<?php echo (($i-1)%2==0 || $i==1)?' first-tablet':''; ?>" data-tablet="span6<?php echo (($i-1)%2==0 || $i==1)?' first-tablet':''; ?>">
+					<!--<div class="span4" data-normal="span4" data-tablet="span6" data-stablet="span6">-->
+						<div class="item">
+							<div class="item-inner">
+								<div class="item-box">
+									<?php if ($this->product_image_disp): ?>
+									<div class="product-image">
+										<?php if ($specialprice){ ?>
+												<div class='sale-item'></div>
+										<?php } ?>
+										<?php if ($now>=$newsFrom && $now<=$newsTo){ ?>
+												<div class='new-item'></div>
+										<?php } ?>
+										<?php if ($isBestProduct){ ?>
+												<div class='best-item'></div>
+										<?php } ?>										
+										<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-imgs"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($this->product_image_width,$this->product_image_height); ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
+	                                                                            
+                                        <div class="bg-hover">
+                                    		<div class="item-description">                                        	
+                                            <?php 
+												if(strlen($_helper->productAttribute($_product, $_product->getshort_description(), 'short_description')) > 120){
+													echo substr($_helper->productAttribute($_product, $_product->getshort_description(), 'short_description'), 0, 120) .' ...';
+												}else{
+													echo $_helper->productAttribute($_product, $_product->getshort_description(), 'short_description');
+												}
+											?>
+                                       	 	</div>
+                                        <a class="fontcolor" href="<?php echo $_product->getProductUrl() ?>" title="Go to detail">
+                                        	<div class="go-to-detail">
+                                        	</div>
+                                         </a>
+                                         <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+													<div class="compare-listting">														
+														<a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to compare') ?>"><?php echo $this->__('Add to Compare') ?></a>
+													</div>
+										<?php endif; ?>
+                                    </div>	
+                                    	<?php if ($this->product_title_disp){ ?>
+									<h2 class="product-name">
+										<?php $_productNameStripped = $this->stripTags($_product->getName(), null, true); ?>
+										<?php
+											if ( $this->product_title_max_length > 0){
+												$_productNameTruncated = Mage::helper('core/string')->truncate($_productNameStripped, $this->product_title_max_length);
+											}
+										?>											
+										<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>">
+										<?php //echo isset($_productNameTruncated) ? $_productNameTruncated : $_helper->productAttribute($_product, $_product->getName() , 'name'); ?>
+                                        <?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?>
+                                        </a>
+									</h2>
+											<?php  } ?>	
+									</div>
+									<?php endif; ?>                                    
+									</div> <?php //[end]  item-box	?>
+                                    
+                                <div class="item-box-footer">	
+                            		<div class="price-wrapper">	
+										<?php if ($this->product_price_disp): ?>
+												<div class="price-block"><?php echo /*'<span>Price: </span>'.*/$this->getPriceHtml($_product, true, false) ?></div>
+										<?php endif; ?> 
+									</div>	
+                                	<div class="cart-wishlist">	
+                                    <?php if ($this->helper('wishlist')->isAllow() AND $this->product_addtowishlist) : ?>
+												<a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="btn-wishlist">
+													<span class="icon-wishlist"></span>
+                                      				<span class="icon-wishlist-text"><?php echo $this->__('Wishlist') ?></span>
+                                                </a>
+											<?php endif; ?>																						
+								  	<?php if ($this->product_cart_or_status){ ?>											
+												<?php if($_product->isSaleable()): ?>
+													<a title="<?php echo $this->__('Add to Cart') ?>" href="javascript:void(0);<?php //echo $this->getAddToCartUrl($_product) //allow add product to cart and then redirect to cart page ?>" class="btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')">
+                                                    	<span class="icon-cart"></span>
+                                                        <span class="icon-cart-text"><?php echo $this->__('Add to Cart') ?></span>
+                                                    </a>
+												<?php else: ?>
+													<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+												<?php endif; ?>											
+											<?php } ?>	
+                                 			                                 
+                               </div>
+								</div>    																	
+							</div> <?php //[end]  item-inner	?>
+						</div>	<?php //[end]  item	?>
+					</div>	 <?php //[end]  span2d4	?>
+ 			<?php if ($i==$_collectionSize): ?>
+			</div>
+        </div> <?php //[end]  products-grid	?>
+        <?php endif ?>
+        <?php endforeach; ?>
+    <?php endif; ?>
+	</div>
+</div>

@@ -1,0 +1,268 @@
+/*---------------------------green #6CBE42-----------*/
+.my-account  a,
+.multiple-checkout p a,
+#yt_wrapper .cart a:hover,
+.cart-empty a,
+a:hover,
+#yt_spotlight a:hover,
+#yt_header #header-right .login-header .account-header:hover .login-header-drop ul li a:hover {
+    color: #6CBE42;
+}
+#logo-amaz,
+.yt-left-wrap .block-title,
+.sm-serachbox-pro .sm-searbox-content .form-button.button,
+.yt-left-wrap .block-newsletter .block-content-info .input-box .actions .button,
+.slideshow .sl-item .sl-item-content .viewdetail:hover,
+#yt_main_top .blocktabs.top-position .tabs-container ul.tabs li:hover,
+#yt_main_top .blocktabs.top-position .tabs-container ul.tabs li.sel
+#yt_wrapper .category-products .view-mode a.listing-grid-icon:hover, 
+#yt_wrapper .category-products .view-mode a.listing-icon:hover,
+#yt_wrapper .category-products .view-mode .listing-grid-icon, #yt_wrapper .category-products .view-mode .listing-icon,
+.container-slider .page-button .control-button li:hover,
+#yt_main_top .block-support,
+#yt_main .products-list .item .item-inner a.btn-detail,
+.yt-product-detail .more-views.slide-gallery.hidden-phone .prev, 
+.yt-product-detail .more-views.slide-gallery.hidden-phone .next,
+.mini-cartpro .block-content .mini-products-list li.item a.btn-edit:hover, 
+.mini-cartpro .block-content .mini-products-list li.item a.btn-remove:hover,
+.account-login #login-form .button, #yt_wrapper .cart .button.btn-continue, 
+#yt_wrapper .cart .button.btn-update, 
+#yt_wrapper .cart .button .btn-empty, #yt_wrapper .cart .button,
+#checkoutSteps > li.active .step-title,
+#checkoutSteps .button,
+#yt_wrapper #yt_main .my-account #wishlist-view-form #wishlist-table .button.btn-cart, 
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-share, 
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-add, 
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-update, 
+#yt_wrapper #yt_main .my-account .button,
+#yt_main_top .blocktabs.top-position .tabs-container ul.tabs li.sel,
+#yt_wrapper .category-products .products-list li .box-main span.quantity-controls:hover input.quantity-controls:hover,
+#yt_wrapper .category-products .view-mode a.listing-grid-icon:hover, 
+#yt_wrapper .category-products .view-mode a.listing-icon:hover,
+#yt_wrapper .yt-product-detail #yt_tab_products .yt-tab-content #yt_tabitem_reviewform .form-add .buttons-set .button,
+ul.sm_megamenu_menu .more-view,
+ul.sm_megamenu_menu .more-view.open,
+.block-menu .block-content ul.nav-menu .more-view,
+.block-menu .block-content ul.nav-menu .more-view.open,
+.menu-selectbox:before,
+#yt_header #header-right .popular-searches-mobi .btn-quick-search,
+#yt-responsivemenu .btn.btn-navbar,
+#yt_wrapper .contact-form #contactForm .buttons-set:hover,
+#yt_wrapper #checkout-progress-state > li.active,
+.multiple-checkout .button,
+#checkout-review-submit .place-order #review-button,
+#yt_wrapper .cart .title-buttons .button.btn-proceed-checkout.btn-checkout,
+#yt_header #header-right .login-header-drop .drop-signin-btn,
+#yt_content #yt_left .block-title,
+#yt_content #yt_right .block-title,
+#yt_content .block-tags .block-title,
+#yt_content .block-news .block-title,
+#yt_content .block-scrollbar .block-title,
+#yt_content .block-megamenu .block-title,
+#yt_content .block-menu .block-title,
+#yt_content .block-shopby-0 .block-title,
+#yt_content .block-shopby-1 .block-title,
+.catalog-product-compare-index .button.btn-cart,
+.catalog-product-compare-index .add-to-links >li,
+.catalog-product-compare-index .buttons-set .button,
+.currency-select-inner div.selector,
+.language-switcher div.selector,
+#pollForm .button,
+#reorder-validate-detail .button
+{
+	background-color: #6CBE42;
+}
+.slideshow .pag-list .pag-item.sel,
+#yt_header .header-nav ul li a:hover,
+.yt-left-wrap .block-news .news-content ul li:hover .cont-news .news-title a,
+.yt-left-wrap .readmore a,
+#yt_footerwrap .copyright a,
+#yt_spotlight .lastest-twitter a,
+#narrow-by-list .block .odd ol li:hover a,
+.slideshow .sl-item .sl-item-content .sl-item-title:hover a,
+#yt_spotlight .block-user1 > .block-footer-content .nav-item:hover a, #yt_spotlight .block-user2 > .block-footer-content .nav-item:hover a, 
+#yt_spotlight .block-user1 > .block-footer-content .nav-item:hover .icon-caret-right,
+.yt-product-detail .product-info-box .product-name, 
+.mini-cartpro .block-content .mini-products-list li.item .product-name a:hover,
+.yt-left-wrap .block-news .news-content ul li:hover .date-news span,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu_black li:hover div a:hover span,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_content .products-grid .item .product-image .product-name a:hover,
+#yt_wrapper #yt_left .block-account .block-content > ul > li > strong,
+#yt_wrapper #yt_left .block-account .block-content > ul > li:hover > a,
+.yt-left-wrap .block-menu .block-content .nav-menu ul li:hover a,
+#yt_resmenu_collapse ul.nav-menu li .res-wrapnav ul li a:hover span,
+#yt_screennav ul.siderbar-menu > li.active > a span,
+#yt_screennav ul.siderbar-menu li ul li.active a span,
+#yt_screennav ul.siderbar-menu > li > a:hover span,
+#yt_screennav ul.siderbar-menu li ul li a:hover span,
+#yt_resmenu_collapse ul.nav-menu li .res-wrapnav ul li.active a span,
+#yt_resmenu_collapse ul.nav-menu li .res-wrapnav ul li a:hover span,
+.yt-left-wrap .block-menu .block-content ul.nav-menu li ul li.active a,
+.sm-serachbox-pro .sm-searchbox-keyword-list > li a.sm-searchbox-more,
+#yt_wrapper #yt_pathway  ul.breadcrumbs li a.has-link:hover
+{
+	color: #6CBE42;
+}
+.yt-left-wrap .readmore {
+    background: url("../../images/greenblue/read-more.jpg") no-repeat scroll right center transparent;
+    float: right;
+}
+.yt-left-wrap .block-news .news-content ul li:hover .date-news {
+    background: url("../../images/greenblue/calendar-news.png") no-repeat scroll transparent;
+    float: left;
+    height: 58px;
+    margin-left: 10px;
+    width: 56px;
+}
+.yt-product-detail #yt_tab_products .yt-tab-content #yt_abitem_tags .collateral-box .box-collateral .form-add > .button {
+    background: url("../../images/greenblue/btn-tag.jpg") no-repeat scroll 0 0 transparent;
+}
+
+/*-------------blue #194684-----------------*/
+#yt_header .container,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu_black,
+#yt_pathway .pathway-inner .breadcrumbs, 
+#yt_main .container-slider .page-title-slider,
+#yt_main .categories-title .category-title,
+.yt-left-wrap .block-newsletter,
+#yt_content .block-newsletter,
+#yt_main_bottom .blocktabs.top-position .tabs-container ul.tabs li.sel,
+#yt_main_bottom .blocktabs.top-position .tabs-container ul.tabs li:hover,
+#yt_wrapper .category-products .toolbar-bottom,
+.yt-product-detail #yt_tab_products .yt-tab-navi > li.active, .yt-product-detail #yt_tab_products .yt-tab-navi > li:hover, 
+.yt-product-detail #yt_tab_products .yt-tab-navi > li.active:hover,
+.mini-cartpro .block-content .bottom-action,
+#yt_wrapper .contact-form .form-list .contact-left .contact-name, 
+#yt_wrapper .contact-form .form-list .contact-left .contact-email, 
+#yt_wrapper .contact-form .form-list .contact-left .contact-website,
+.yt-left-wrap .block-menu .block-content,
+ul.nav-menu li.parent .menuress-toggle,
+#yt_content .block-menu .block-content,
+#yt_main .products-list .item .item-inner .link-compare,
+.catalogsearch-result-index #yt_main_middle > .page-title
+{
+    background-color: #194684;
+}
+#yt_wrapper .contact-form #contactForm .buttons-set span.send-mess {
+    background: url("../../images/greenblue/btn-send.jpg") no-repeat scroll 0 0 transparent;
+}
+
+/*-------------blue little #69A1EF---------*/
+#reorder-validate-detail .button:hover,
+.mini-cartpro .block-title,
+#yt_header #header-right .login-header,
+#yt_main_top .blocktabs.top-position .tabs-container ul.tabs li,
+.slideshow .sl-item .sl-item-content .viewdetail,
+.container-slider .page-button .control-button li,
+#yt_main_bottom .blocktabs.top-position .tabs-container ul.tabs li,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu li.sm_megamenu_nodrop:hover,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_top_actived, 
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li.sm_megamenu_actived,
+#yt_wrapper .category-products .view-mode a.listing-grid-icon, #yt_wrapper .category-products .view-mode a.listing-icon,
+.yt-left-wrap .block-tags ul.tags-list li:hover,
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.yt-product-detail .product-info-box .box-main .cart-wishlist a.btn-cart, 
+#yt_main .products-grid .item .item-inner .item-box-footer a.btn-cart, 
+#yt_main .products-list .item a.btn-cart,
+.yt-product-detail #yt_tab_products .yt-tab-navi > li,
+.mini-cartpro .block-content .bottom-action .btn-gotocart,
+.mini-cartpro .block-content .bottom-action .btn-checkout,
+.mini-cartpro .block-content .bottom-action .btn-update,
+#yt_wrapper .contact-form .form-list .contact-left .field:hover .contact-name, 
+#yt_wrapper .contact-form .form-list .contact-left .field:hover .contact-email, 
+#yt_wrapper .contact-form .form-list .contact-left .field:hover .contact-website,
+#yt_wrapper .cart .button.btn-continue:hover, 
+#yt_wrapper .cart .button.btn-update:hover, 
+#yt_wrapper .cart .button .btn-empty:hover, 
+#yt_wrapper .cart .button:hover, 
+#yt_wrapper .cart .title-buttons .button.btn-proceed-checkout.btn-checkout:hover,
+#checkoutSteps .step-title,
+#checkoutSteps .button:hover,
+.account-login #login-form .button:hover,
+#yt_wrapper #yt_main .my-account .data-table thead tr,
+#yt_wrapper #yt_main .my-account #wishlist-view-form #wishlist-table .button.btn-cart:hover,
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-share:hover,
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-add:hover,
+#yt_wrapper #yt_main .my-account #wishlist-view-form .button.btn-update:hover,
+#yt_wrapper #yt_main .my-account .button:hover,
+#yt_wrapper #yt_main .my-account .box-title, 
+.container-slider .slider .vpo-wrap .vp .item .item-box-footer a.btn-cart,
+.toolbar-bottom .toolbar .toolbar-inner .moveup-toolbar,
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu li:hover,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_content .products-grid .item .item-inner .btn-cart,
+#yt_wrapper .yt-product-detail #yt_tab_products .yt-tab-content #yt_tabitem_reviewform .form-add .buttons-set .button:hover,
+.yt-left-wrap .block-menu .block-content ul.nav-menu > li.active,
+.yt-left-wrap .block-menu .block-content ul.nav-menu > li:hover,
+#yt_resmenu_collapse ul.nav-menu > li > a,
+#yt_wrapper .contact-form #contactForm .buttons-set,
+#yt_wrapper #checkout_multishipping_form .multiple-checkout .button:hover,
+#yt_wrapper .multiple-checkout .button:hover,
+#yt_wrapper #checkout-progress-state > li,
+#yt_wrapper #checkout_multishipping_form #multiship-addresses-table thead tr th,
+#yt_wrapper .multiple-checkout .box-title >h3,
+#yt_wrapper .multiple-checkout .box-title >h2,
+#yt_wrapper .multiple-checkout .box-title >h4,
+#yt_wrapper .multiple-checkout .data-table thead tr th,
+.multiple-checkout .button:hover,
+#checkout-review-submit .place-order #review-button:hover,
+#yt_wrapper .cart .title-buttons .button.btn-proceed-checkout.btn-checkout:hover,
+#yt_wrapper .cart #shopping-cart-table .label-addcard,
+#my-orders-table thead tr th,
+#yt_header #header-right .login-header-drop .drop-signin-btn:hover,
+.yt-product-detail .add-to-holder.have-price .add-to-cart .btn-cart,
+.catalog-product-compare-index .buttons-set .button:hover,
+.catalog-product-compare-index .button.btn-cart:hover,
+.catalog-product-compare-index .add-to-links >li:hover,
+#product_comparison thead tr th,
+#product_comparison thead tr td,
+.yt-product-detail .add-to-holder.have-price .add-to-cart .btn-cart, 
+.yt-product-detail .product-info .box-main .product-box .cart-wishlist .btn-cart
+{
+    background-color: #69A1EF;
+}
+.slideshow .pag-list .pag-item,
+.block-login-top .actions .chk-remember label:hover,
+.block-login-top .more-actions a:hover
+{
+	color: #69A1EF;
+}
+.mini-cartpro .block-content{
+	 border-top: 4px solid #69A1EF;
+}
+.yt-left-wrap .block-menu .block-content .nav-menu ul,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_dropdown_4columns,
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_dropdown_2columns {
+    border-left: 4px solid #69A1EF;
+}
+
+.block-login-top .actions input.submit-repl {
+    background: url("../../images/greenblue/login-btn.jpg") no-repeat scroll 0 0 transparent;
+}
+.block-login-top .actions input.submit-repl:hover {
+    background: url("../../images/greenblue/login-btn-hover.jpg") no-repeat scroll 0 0 transparent;
+}
+#yt_header #header-right .login-header .modal .modal-body .account-create .buttons-set > .button{
+	background: url("../../images/greenblue/register-btn.png") no-repeat scroll 0 0 transparent;
+}
+#yt_header #header-right .login-header .modal .modal-body .account-create .buttons-set > .button:hover{
+	background: url("../../images/greenblue/register-btn-hover.png") no-repeat scroll 0 0 transparent;
+}
+#yt_wrapper .page-sitemap .pages ol li a,
+#yt_wrapper .category-products .pagination .pages ol li a{	
+	background:url(../../images/greenblue/page.png) no-repeat;
+}
+#yt_wrapper .page-sitemap .pages ol li:hover a,
+#yt_wrapper .page-sitemap .pages ol li.current a,
+#yt_wrapper .category-products .pagination .pages ol li:hover a,
+#yt_wrapper .category-products .pagination .pages ol li.current a{	
+	background:url(../../images/greenblue/page-act.png) no-repeat;
+}
+.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .sm_megamenu_dropdown_3columns {
+    border-left: 4px solid #69A1EF;
+}
+
+.sm-serachbox-pro .sm-searbox-content .form-button.button:hover,
+.yt-left-wrap .block-newsletter .block-content-info .input-box .actions .button:hover{
+	background-color:#56a52d;
+}

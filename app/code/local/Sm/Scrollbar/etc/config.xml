@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<models>
+            <scrollbar>
+                <class>Sm_Scrollbar_Model</class>
+            </scrollbar>
+        </models>
+		<blocks>
+            <scrollbar>
+                <class>Sm_Scrollbar_Block</class>
+            </scrollbar>            		
+        </blocks>				
+		<helpers>
+            <scrollbar>
+                <class>Sm_Scrollbar_Helper</class>
+            </scrollbar>
+        </helpers>
+        <resources>
+        	<scrollbar_setup>
+        		<setup>
+        			<module>Sm_Scrollbar</module>
+        		</setup>
+        	</scrollbar_setup>
+        </resources>
+	</global>
+	<frontend>
+        <routers>
+			<scrollbar>
+                <use>standard</use>
+                <args>
+                    <module>Sm_Scrollbar</module>
+                    <frontName>scrollbar</frontName>
+                </args>
+            </scrollbar>
+        </routers>
+		<layout>
+            <updates>
+                <scrollbar module="Sm_Scrollbar">
+					<file>sm/scrollbar.xml</file>
+                </scrollbar>
+            </updates>
+        </layout>
+        <translate>
+      		<modules>
+          		<Sm_Scrollbar>
+                     <files>
+                          <default>Sm_Scrollbar.csv</default>
+                     </files>
+                </Sm_Scrollbar>
+            </modules>
+        </translate>
+	</frontend>
+	<adminhtml>
+        <translate>
+      		<modules>
+          		<Sm_Scrollbar>
+                     <files>
+                          <default>Sm_Scrollbar.csv</default>
+                     </files>
+                </Sm_Scrollbar>
+            </modules>
+        </translate>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>										
+										<scrollbar_cfg translate="title" module="scrollbar">
+											<title>SM Scrollbar Settings</title>
+										</scrollbar_cfg>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+	<default>
+        <scrollbar_cfg>
+		
+        	<general>
+                <isenabled>1</isenabled>
+                <title>SM Scrollbar</title>
+            </general>
+			
+			<module_setting>
+				<theme>horizontal</theme>
+				<show_arrows>1</show_arrows>
+				<product_links_target>_self</product_links_target>
+			</module_setting>
+			
+			<source_setting>            
+            	<product_category></product_category>
+            	<product_order_by></product_order_by>
+            	<product_order_dir></product_order_dir>
+            	<product_limitation>7</product_limitation>
+            </source_setting>
+			
+            <vertical>
+            	<nb_column1>6</nb_column1>
+				<nb_column2>4</nb_column2>
+				<nb_column3>2</nb_column3>
+				<nb_column4>1</nb_column4>
+            	<pane_height>380</pane_height>
+            </vertical>
+				
+			<horizontal>
+            	<item_width>240</item_width>
+				<num_rows>1</num_rows>
+            </horizontal>
+				
+			<product_display_setting>
+				<product_title_disp>1</product_title_disp>
+				<product_title_max_characters>20</product_title_max_characters>
+				
+				<product_image_width>500</product_image_width>
+				<product_image_height>400</product_image_height>
+				
+				<product_description_disp>1</product_description_disp>
+				<product_description_max_characters>150</product_description_max_characters>
+                <item_description_striptags>1</item_description_striptags>
+                <item_description_keeptags></item_description_keeptags>
+				
+				<product_details_page_link_disp>1</product_details_page_link_disp>
+				<product_details_page_link_text>Details</product_details_page_link_text>
+				<product_price_disp>1</product_price_disp>
+				<product_reviews_count>1</product_reviews_count>				
+			</product_display_setting>
+			
+            <advanced>
+            	<include_jquery>1</include_jquery>
+            	<pretext></pretext>
+            	<posttext></posttext>
+            </advanced>
+			
+        </scrollbar_cfg>
+    </default>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Sm_amaz>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Sm_amaz>
+  </modules>
+</config>
